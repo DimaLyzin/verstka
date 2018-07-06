@@ -1,13 +1,33 @@
-header {
-    background-color: #FD739C;
-    color: white
-}
-
-h1, h2 {
-    font-family: Arial;
+* {
+    box-sizing: border-box;
 }
 
 body {
     font-size: 22px;
-    line-height: 1.54;
+    line-height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+    overflow: auto;
+    background-color: #FD739C;
+    color: white;
+    padding: 0px 0px 50px;
+}
+
+.header-course {
+    margin-top: 100px;
+}
+
+h1, h2 {
+    line-height: 55px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+.landing-section-whoami {
+    padding-top: 50px;
+}
+
